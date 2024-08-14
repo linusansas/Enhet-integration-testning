@@ -2,7 +2,7 @@ import HandleGuess from "./components/HandleGuess";
 
 function App() {
     return (
-        <div className="app-container">
+        <div>
             <HandleGuess />
         </div>
     );

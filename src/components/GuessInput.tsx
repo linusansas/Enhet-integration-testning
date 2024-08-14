@@ -7,15 +7,21 @@ interface GuessInputProps {
 function GuessInput({ onGuess }: GuessInputProps) {
     const [userGuess, setUserGuess] = useState("");
 
-    const handleSubmit = () => {
-        onGuess(parseInt(userGuess, 10));
-        setUserGuess("");
-    };
-
     return (
         <div>
             <input type="number" value={userGuess} onChange={(e) => setUserGuess(e.target.value)} min="1" max="10" />
-            <button onClick={handleSubmit}>Gissa</button>
+            <button
+                data-testid="guess-button"
+                onClick={() => {
+                    const guess = parseInt(userGuess, 10);
+                    if (!isNaN(guess)) {
+                        onGuess(guess);
+                    }
+                    setUserGuess("");
+                }}
+            >
+                Gissa
+            </button>
         </div>
     );
 }
