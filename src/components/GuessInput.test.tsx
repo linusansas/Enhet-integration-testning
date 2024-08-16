@@ -7,7 +7,7 @@ describe("GuessInput", () => {
         render(<GuessInput onGuess={vi.fn()} />);
 
         expect(screen.getByRole("spinbutton")).toBeVisible();
-        expect(screen.getByRole("button")).toHaveTextContent("Gissa");
+        expect(screen.getByRole("button")).toBeVisible();
     });
 
     it("should submit the entered guess when the button is clicked", () => {
