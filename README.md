@@ -19,8 +19,7 @@ Ensure that you have Node.js and npm installed on your machine. If not, you can 
 
 1. Clone the repository to your local machine:
 
-    `git clone https://github.com/your-username/mini-guessing-game.git`
-    `cd mini-guessing-game`
+    `git clone https://github.com/linusansas/Enhet-integration-testning.git`
 
 2. Install project
 
