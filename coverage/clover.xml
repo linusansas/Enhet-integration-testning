@@ -1,87 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1723794808635" clover="3.2.0">
-  <project timestamp="1723794808635" name="All files">
-    <metrics statements="66" coveredstatements="66" conditionals="10" coveredconditionals="10" methods="7" coveredmethods="7" elements="83" coveredelements="83" complexity="0" loc="66" ncloc="66" packages="2" files="3" classes="3"/>
-    <package name="src">
-      <metrics statements="7" coveredstatements="7" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
-      <file name="App.tsx" path="/Users/linus/Documents/GitHub/Enhet-integration-testning/src/App.tsx">
-        <metrics statements="7" coveredstatements="7" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="3" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="9" count="1" type="stmt"/>
-        <line num="11" count="1" type="stmt"/>
-      </file>
-    </package>
-    <package name="src.components">
-      <metrics statements="59" coveredstatements="59" conditionals="9" coveredconditionals="9" methods="6" coveredmethods="6"/>
-      <file name="GuessInput.tsx" path="/Users/linus/Documents/GitHub/Enhet-integration-testning/src/components/GuessInput.tsx">
-        <metrics statements="18" coveredstatements="18" conditionals="3" coveredconditionals="3" methods="3" coveredmethods="3"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="7" count="8" type="cond" truecount="1" falsecount="0"/>
-        <line num="8" count="8" type="stmt"/>
-        <line num="10" count="8" type="stmt"/>
-        <line num="11" count="8" type="stmt"/>
-        <line num="12" count="8" type="cond" truecount="1" falsecount="0"/>
-        <line num="13" count="8" type="stmt"/>
-        <line num="14" count="8" type="stmt"/>
-        <line num="15" count="8" type="cond" truecount="1" falsecount="0"/>
-        <line num="16" count="2" type="stmt"/>
-        <line num="17" count="2" type="stmt"/>
-        <line num="18" count="2" type="stmt"/>
-        <line num="19" count="2" type="stmt"/>
-        <line num="20" count="2" type="stmt"/>
-        <line num="21" count="2" type="stmt"/>
-        <line num="22" count="8" type="stmt"/>
-        <line num="27" count="8" type="stmt"/>
-        <line num="29" count="1" type="stmt"/>
-      </file>
-      <file name="HandleGuess.tsx" path="/Users/linus/Documents/GitHub/Enhet-integration-testning/src/components/HandleGuess.tsx">
-        <metrics statements="41" coveredstatements="41" conditionals="6" coveredconditionals="6" methods="3" coveredmethods="3"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="2" count="1" type="stmt"/>
-        <line num="4" count="10" type="cond" truecount="1" falsecount="0"/>
-        <line num="5" count="10" type="stmt"/>
-        <line num="6" count="10" type="stmt"/>
-        <line num="7" count="10" type="stmt"/>
-        <line num="8" count="10" type="stmt"/>
-        <line num="10" count="10" type="cond" truecount="1" falsecount="0"/>
-        <line num="11" count="4" type="stmt"/>
-        <line num="12" count="4" type="cond" truecount="1" falsecount="0"/>
-        <line num="13" count="4" type="stmt"/>
-        <line num="14" count="4" type="stmt"/>
-        <line num="15" count="10" type="stmt"/>
-        <line num="17" count="10" type="cond" truecount="1" falsecount="0"/>
-        <line num="18" count="14" type="stmt"/>
-        <line num="19" count="14" type="stmt"/>
-        <line num="21" count="10" type="cond" truecount="1" falsecount="0"/>
-        <line num="22" count="4" type="cond" truecount="1" falsecount="0"/>
-        <line num="23" count="2" type="stmt"/>
-        <line num="24" count="2" type="stmt"/>
-        <line num="25" count="2" type="stmt"/>
-        <line num="26" count="2" type="stmt"/>
-        <line num="27" count="2" type="stmt"/>
-        <line num="28" count="2" type="stmt"/>
-        <line num="29" count="2" type="stmt"/>
-        <line num="30" count="2" type="stmt"/>
-        <line num="31" count="2" type="stmt"/>
-        <line num="32" count="2" type="stmt"/>
-        <line num="33" count="4" type="stmt"/>
-        <line num="34" count="4" type="stmt"/>
-        <line num="36" count="10" type="stmt"/>
-        <line num="37" count="10" type="stmt"/>
-        <line num="38" count="10" type="stmt"/>
-        <line num="39" count="10" type="stmt"/>
-        <line num="40" count="10" type="stmt"/>
-        <line num="41" count="10" type="stmt"/>
-        <line num="42" count="10" type="stmt"/>
-        <line num="43" count="10" type="stmt"/>
-        <line num="44" count="10" type="stmt"/>
-        <line num="48" count="10" type="stmt"/>
-        <line num="50" count="1" type="stmt"/>
-      </file>
-    </package>
+<coverage generated="1723801545173" clover="3.2.0">
+  <project timestamp="1723801545173" name="All files">
+    <metrics statements="41" coveredstatements="41" conditionals="6" coveredconditionals="6" methods="3" coveredmethods="3" elements="50" coveredelements="50" complexity="0" loc="41" ncloc="41" packages="1" files="1" classes="1"/>
+    <file name="HandleGuess.tsx" path="/Users/linus/Documents/GitHub/Enhet-integration-testning/src/components/HandleGuess.tsx">
+      <metrics statements="41" coveredstatements="41" conditionals="6" coveredconditionals="6" methods="3" coveredmethods="3"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="4" count="9" type="cond" truecount="1" falsecount="0"/>
+      <line num="5" count="9" type="stmt"/>
+      <line num="6" count="9" type="stmt"/>
+      <line num="7" count="9" type="stmt"/>
+      <line num="8" count="9" type="stmt"/>
+      <line num="10" count="9" type="cond" truecount="1" falsecount="0"/>
+      <line num="11" count="3" type="stmt"/>
+      <line num="12" count="3" type="cond" truecount="1" falsecount="0"/>
+      <line num="13" count="3" type="stmt"/>
+      <line num="14" count="3" type="stmt"/>
+      <line num="15" count="9" type="stmt"/>
+      <line num="17" count="9" type="cond" truecount="1" falsecount="0"/>
+      <line num="18" count="13" type="stmt"/>
+      <line num="19" count="13" type="stmt"/>
+      <line num="21" count="9" type="cond" truecount="1" falsecount="0"/>
+      <line num="22" count="4" type="cond" truecount="1" falsecount="0"/>
+      <line num="23" count="2" type="stmt"/>
+      <line num="24" count="2" type="stmt"/>
+      <line num="25" count="2" type="stmt"/>
+      <line num="26" count="2" type="stmt"/>
+      <line num="27" count="2" type="stmt"/>
+      <line num="28" count="2" type="stmt"/>
+      <line num="29" count="2" type="stmt"/>
+      <line num="30" count="2" type="stmt"/>
+      <line num="31" count="2" type="stmt"/>
+      <line num="32" count="2" type="stmt"/>
+      <line num="33" count="4" type="stmt"/>
+      <line num="34" count="4" type="stmt"/>
+      <line num="36" count="9" type="stmt"/>
+      <line num="37" count="9" type="stmt"/>
+      <line num="38" count="9" type="stmt"/>
+      <line num="39" count="9" type="stmt"/>
+      <line num="40" count="9" type="stmt"/>
+      <line num="41" count="9" type="stmt"/>
+      <line num="42" count="9" type="stmt"/>
+      <line num="43" count="9" type="stmt"/>
+      <line num="44" count="9" type="stmt"/>
+      <line num="48" count="9" type="stmt"/>
+      <line num="50" count="1" type="stmt"/>
+    </file>
   </project>
 </coverage>
