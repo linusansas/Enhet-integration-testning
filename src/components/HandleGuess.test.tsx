@@ -2,7 +2,6 @@ import { fireEvent, render, screen } from "@testing-library/react";
 import { describe, expect, it, vi } from "vitest";
 import HandleGuess from "./HandleGuess";
 
-// Mocka GuessInput-komponenten för att isolera testning av HandleGuess
 vi.mock("./GuessInput", () => {
     return {
         default: (props: { onGuess: (value: number) => void }) => (
@@ -15,12 +14,12 @@ vi.mock("./GuessInput", () => {
         ),
     };
 });
+
 describe("HandleGuess", () => {
-    it("should render correctly with title, instructions, and GuessInput component", () => {
+    it("should render correctly with title and GuessInput component", () => {
         render(<HandleGuess />);
 
         expect(screen.getByText("Gissa numret")).toBeVisible();
-        expect(screen.getByText("Gissa ett nummer mellan 1 och 10")).toBeVisible();
         expect(screen.getByTestId("guess-button")).toBeVisible();
     });
 
@@ -49,9 +48,7 @@ describe("HandleGuess", () => {
         fireEvent.change(screen.getByTestId("guess-input"), { target: { value: "5" } });
         fireEvent.click(screen.getByTestId("guess-button"));
 
-        // Kontrollera om meddelandet visas
         expect(screen.getByText("Grattis! Du gissade rätt!")).toBeVisible();
-
         Math.random = originalMathRandom;
     });
 });
